@@ -1,0 +1,27 @@
+plugins {
+    id("java")
+}
+
+// 定义项目的相关的信息
+group = "org.example"
+version = "1.0-SNAPSHOT"
+
+// 使用maven中心仓库作为项目的依赖来源
+// https://mvnrepository.com/repos/central
+repositories {
+    mavenCentral()
+}
+
+// TODO. 设置项目源代码的编码格式
+compileJava.options.encoding='UTF-8'
+
+dependencies {
+
+    // 添加测试相关的依赖，向下兼容Junit4的测试
+    testImplementation(platform("org.junit:junit-bom:5.9.1"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+}
+
+tasks.test {
+    useJUnitPlatform()
+}

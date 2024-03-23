@@ -1,0 +1,9 @@
+// TODO. 用于定义项目的结构和层级关系
+
+// Declare the configuration required to configure the hierarchy of projects
+// which participate in a build
+// Include root project, multiple sub projects ...
+rootProject.name = 'JavaSpringBasicGradle'
+include 'web'
+include 'core'
+

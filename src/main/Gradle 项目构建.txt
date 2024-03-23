@@ -1,0 +1,9 @@
+https://docs.gradle.org/8.4/userguide/userguide.html
+
+Gradle Wrapper
+https://docs.gradle.org/8.4/userguide/gradle_wrapper.html
+> ./gradlew build --warning-mode=none       抑制项目构建的提示
+> ./gradlew wrapper --gradle-version latest 升级到wrapper最新版本
+
+Gradle 8.4 版本新特性(兼容Java 21)
+https://docs.gradle.org/8.4/release-notes.html
