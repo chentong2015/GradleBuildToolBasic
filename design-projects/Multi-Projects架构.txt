@@ -1,2 +1,0 @@
-多项目模块结构设计
-https://docs.gradle.org/current/userguide/intro_multi_project_builds.html

@@ -2,28 +2,50 @@ plugins {
     id 'java'
 }
 
+// TODO.....
+// buildscript {
+//
+// }
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 
 // 设置项目源代码的编码格式
 compileJava.options.encoding='UTF-8'
 
-// 配置项目的依赖来源Repo
+// TODO. 配置项目的依赖来源Repository
+// 非安全链接必须设置InsecureProtocol
 repositories {
-    // mavenCentral()
+    // 1. Public repository
+    mavenCentral()
+    gradlePluginPortal()
+
+    // 2. Private/Custom repository
+    maven { url 'https://repo.spring.io/milestone' }
     maven {
         url "https://mvnrepository.com/repos/central"
         allowInsecureProtocol = true
     }
+
+    // 3. Local repository
+    // mavenLocal()
+
+    // 4. Local File location
+    flatDir {
+        dirs "libs"
+    }
 }
 
-// 统一配置所有项目的设置
+// TODO. 统一配置所有项目的设置
 allprojects {
+    // 在所有项目中统一应用插件
     apply plugin: 'java'
 
+    repositories {
+    }
 }
 
-// 统一配置子项目的依赖和Repo
+// TODO. 统一配置子项目的依赖和Repo
 subprojects {
     // apply plugin: 'java-library'
 
