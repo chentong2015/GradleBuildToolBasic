@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/custom-dependencies" />
             <option value="$PROJECT_DIR$/custom-plugins" />
             <option value="$PROJECT_DIR$/custom-plugins/java-application-plugin" />
+            <option value="$PROJECT_DIR$/custom-plugins/java-plugin" />
             <option value="$PROJECT_DIR$/custom-plugins/spring-boot-plugin" />
             <option value="$PROJECT_DIR$/custom-resources" />
             <option value="$PROJECT_DIR$/custom-tasks" />

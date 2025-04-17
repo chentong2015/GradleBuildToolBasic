@@ -27,3 +27,6 @@ findProject(':custom-plugins:spring-boot-plugin')?.name = 'spring-boot-plugin'
 
 include 'custom-plugins:java-application-plugin'
 findProject(':custom-plugins:java-application-plugin')?.name = 'java-application-plugin'
+include 'custom-plugins:java-plugin'
+findProject(':custom-plugins:java-plugin')?.name = 'java-plugin'
+

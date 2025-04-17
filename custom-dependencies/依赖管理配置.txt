@@ -1,0 +1,30 @@
+Dependency Declaration Configurations
+
+TODO. implementation 同时被源码和测试代码在两个阶段所使用
+Represents dependencies that are required both at compile time and runtime
+for the main source set of a project (i.e., implementation only dependencies).
+
+TODO. compileOnly
+Represents dependencies that are required only at compile time and are not included in the runtime classpath
+(i.e., compile time only dependencies, not used at runtime).
+
+TODO. runtimeOnly
+Represents dependencies that are required only at runtime and are not included in the compile classpath
+(i.e., dependencies required only at runtime).
+
+TODO. testImplementation extends implementation
+Represents dependencies that are required both at compile time and runtime for the test source set of a project
+(i.e., implementation only dependencies for tests).
+
+TODO. testCompileOnly
+Represents dependencies that are required only at compile time for the test source set of a project
+and are not included in the runtime classpath
+(i.e., additional dependencies only for compiling tests, not used at runtime).
+
+TODO. testRuntimeOnly extends runtimeOnly
+Represents dependencies that are required only at runtime for the test source set of a project
+(i.e., runtime only dependencies for running tests).
+
+TODO. annotationProcessor
+Represents annotation processors used during the compilation of a project’s source code
+(i.e., annotation processors used during compilation).

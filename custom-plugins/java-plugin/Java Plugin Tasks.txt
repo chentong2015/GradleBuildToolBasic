@@ -1,0 +1,46 @@
+Java plugin adds a number of tasks to your project:
+
+TODO. compileJava — JavaCompile
+Depends on: All tasks which contribute to the compilation classpath,
+including jar tasks from projects that are on the classpath via project dependencies
+Compiles production Java source files using the JDK compiler.
+
+TODO. processResources — ProcessResources
+Copies production resources into the production resources directory.
+
+TODO. classes
+Depends on: compileJava, processResources
+This is an aggregate task that just depends on other tasks.
+Other plugins may attach additional compilation tasks to it.
+
+TODO. compileTestJava — JavaCompile
+Depends on: classes, and all tasks that contribute to the test compilation classpath
+Compiles test Java source files using the JDK compiler.
+
+TODO. processTestResources — Copy
+Copies test resources into the test resources directory.
+
+TODO. testClasses
+Depends on: compileTestJava, processTestResources
+This is an aggregate task that just depends on other tasks.
+Other plugins may attach additional test compilation tasks to it.
+
+TODO. jar — Jar
+Depends on: classes
+Assembles the production JAR file, based on the classes and resources attached to the main source set.
+
+TODO. javadoc — Javadoc
+Depends on: classes
+Generates API documentation for the production Java source using Javadoc.
+
+TODO. test — Test
+Depends on: testClasses, and all tasks which produce the test runtime classpath
+Runs the unit tests using JUnit or TestNG.
+
+TODO. clean — Delete
+Deletes the project build directory.
+
+TODO. cleanTaskName — Delete
+Deletes files created by the specified task.
+cleanJar will delete the JAR file created by the jar task
+cleanTest will delete the test results created by the test task

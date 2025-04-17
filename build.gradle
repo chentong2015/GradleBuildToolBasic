@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    id 'java'
 }
 
 group 'org.example'
@@ -21,8 +21,6 @@ repositories {
 allprojects {
     apply plugin: 'java'
 
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
 }
 
 // 统一配置子项目的依赖和Repo

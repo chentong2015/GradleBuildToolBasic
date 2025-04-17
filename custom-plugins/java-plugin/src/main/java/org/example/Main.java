@@ -1,11 +1,14 @@
 package org.example;
 
-import com.netflix.discovery.EurekaClient;
-
+/**
+ * Main Java Plugin Application
+ */
 public class Main {
 
-    private EurekaClient eurekaClient;
-
+    /**
+     * Main method for running applicatiob
+     * @param args parameters
+     */
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }

@@ -1,0 +1,7 @@
+https://docs.gradle.org/current/userguide/application_plugin.html
+
+插件会简化Java应用程序的开发和打包
+Java Application plugin facilitates creating an executable JVM application
+- Easy to start application locally during development,
+- Easy to package the application as a TAR and/or ZIP
+

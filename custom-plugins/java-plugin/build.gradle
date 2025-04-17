@@ -1,0 +1,36 @@
+plugins {
+    // To use the Java plugin
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+// TODO. Java plugin adds java extension to the project
+// Allows to configure a number of Java related properties inside DSL block.
+java {
+    // Java toolchain to be used by tasks using JVM tools,
+    // such as compilation and execution.
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+
+    // TODO. 大多数情况下推荐使用Java toolchain代替兼容性设置
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+
+    withJavadocJar()
+}
+
+// TODO. 自定义修改Java项目的结构布局
+sourceSets {
+    main {
+        // Custom Java source layout
+        java {
+            // srcDirs = ['src/java']
+        }
+        resources {
+            // srcDirs = ['src/resources']
+        }
+    }
+}

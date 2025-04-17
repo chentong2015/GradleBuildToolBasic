@@ -1,0 +1,29 @@
+TODO. Extra Properties Extension 配置相关的自定义属性
+Extra properties extensions allow new properties to be added to existing domain objects
+
+// TODO. Support reading and writing
+ext {
+    set("myPro", "102")
+}
+
+project.ext.set("myProp", "myValue")
+assert project.myProp == "myValue"
+project.myProp = "anotherValue"
+assert project.myProp == "anotherValue"
+assert project.ext.get("myProp") == "anotherValue"
+
+// TODO. Support Groovy property syntax
+ext {
+   myprop = "a"
+}
+
+assert project.myprop == "a"
+assert project.ext.myprop == "a"
+project.myprop = "b"
+assert project.myprop == "b"
+assert project.ext.myprop == "b"
+
+// TODO. Support Groovy accessor syntax to get and set properties
+project.ext["otherProp"] = "a"
+assert project.otherProp == "a"
+assert project.ext["otherProp"] == "a"

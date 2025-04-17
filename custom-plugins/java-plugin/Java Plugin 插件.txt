@@ -1,0 +1,7 @@
+https://docs.gradle.org/current/userguide/java_plugin.html
+
+插件为项目提供Java开发所需的Tasks和生命周期
+Java plugin adds Java compilation along with testing and bundling capabilities to project
+- Add a number of tasks to your project
+- Add Java Extension for configuring related properties
+- Add a number of dependency configurations to your project
