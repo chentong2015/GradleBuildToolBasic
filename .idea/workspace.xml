@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/custom-plugins/Gradle Plugins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-plugins/spring-boot-plugin/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-plugins/spring-boot-plugin/src/main/java/org/example/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-plugins/spring-boot-plugin/src/main/java/org/example/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-plugins/spring-boot-plugin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tasks/自定义Task任务.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-testing/测试执行自动化.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-projects/Multi-Projects架构.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/java-application-plugin/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-resources/src/main/解析资源文件.png" beforeDir="false" afterPath="$PROJECT_DIR$/custom-resources/解析资源文件.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,13 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744884290277</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update spring boot plugin">
+      <created>1744886402985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744886402985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create modules structures" />
     <MESSAGE value="update custom resources" />
     <MESSAGE value="clean library" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean library" />
+    <MESSAGE value="update spring boot plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="update spring boot plugin" />
   </component>
 </project>
