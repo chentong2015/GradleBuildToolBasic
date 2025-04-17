@@ -1,8 +1,7 @@
 https://docs.spring.io/spring-boot/gradle-plugin/
 
-插件会添加Application层两个任务
-bootRun is a standard JavaExec task
-- bootRun
+Application:
+- bootRun: standard JavaExec task
 - bootTestRun
 
 TODO. 通过Task直接启动应用: 查找默认启动类, 支持传递参数/系统属性

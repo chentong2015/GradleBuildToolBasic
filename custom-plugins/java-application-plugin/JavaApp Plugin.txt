@@ -2,6 +2,24 @@ https://docs.gradle.org/current/userguide/application_plugin.html
 
 插件会简化Java应用程序的开发和打包
 Java Application plugin facilitates creating an executable JVM application
-- Easy to start application locally during development,
+- Easy to start application locally during development
 - Easy to package the application as a TAR and/or ZIP
 
+TODO. 插件会添加多种可执行的Tasks
+Application:
+- run: standard JavaExec task
+Distribution:
+- assembleDist
+- distZip
+- distTar
+- installDist: Creates a full ZIP archive including runtime libraries and OS specific scripts.
+Other:
+- startScripts: Creates OS specific scripts to run the project as a JVM application.
+
+TODO. 通过Task直接启动应用
+> ./gradlew run
+> ./gradlew run --debug-jvm        启动Debug模式
+> ./gradlew run --args="foo --bar" 传递命令行参数
+
+Applying Application plugin also implicitly applies Java plugin.
+Applying Application plugin also implicitly applies Distribution plugin.
