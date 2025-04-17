@@ -6,6 +6,8 @@ pluginManagement {
 
 // 配置主项目和项目的子模块
 rootProject.name = "GradleBuildToolBasic"
+
+include 'custom-dependencies'
 include 'custom-resources'
 include 'custom-tasks'
 include 'design-testing'
@@ -25,4 +27,3 @@ findProject(':custom-plugins:spring-boot-plugin')?.name = 'spring-boot-plugin'
 
 include 'custom-plugins:java-application-plugin'
 findProject(':custom-plugins:java-application-plugin')?.name = 'java-application-plugin'
-

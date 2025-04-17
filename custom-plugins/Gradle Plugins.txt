@@ -2,4 +2,3 @@
 The plugin detects when certain other plugins are applied and reacts accordingly.
 
 https://plugins.gradle.org/
-https://docs.spring.io/spring-boot/gradle-plugin/

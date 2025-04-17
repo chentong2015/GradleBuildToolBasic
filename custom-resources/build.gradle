@@ -9,8 +9,7 @@ repositories {
     mavenCentral()
 }
 
-// TODO. 配置如何解析资源文件的策略: 加载和排除
-// Task :processResources 可执行的任务阶段
+// TODO. 自定义(修改)解析资源文件的策略Task :processResources
 processResources {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
@@ -19,5 +18,6 @@ processResources {
         include '**/*.properties'
         include '**/*.txt'
     }
+
     exclude 'application-dev.properties', 'conf/', 'scripts/'
 }

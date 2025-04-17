@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // implementation 'org.springframework.ai:spring-ai-openai'
+}
+
+// TODO. 需要使用项目管理的插件
+//  管理项目依赖的统一版本, 同时引入多个所需版本
+// dependencyManagement {
+//     imports {
+//         // Bill of Materials (BOM)
+//         // mavenBom "org.springframework.ai:spring-ai-bom:1.0.0-SNAPSHOT"
+//     }
+// }
