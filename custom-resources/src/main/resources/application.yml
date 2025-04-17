@@ -1,0 +1,10 @@
+spring:
+    profiles.active: prod
+    output.ansi.enabled: detect
+
+application:
+    name: Custom Resources Project
+    version: "1.0-SNAPSHOT"
+    release:
+       date: "17-04-2025"
+       time: "12:00"

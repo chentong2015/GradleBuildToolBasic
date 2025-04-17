@@ -5,31 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-plugins/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tasks/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tasks/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/core-library/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/core-library/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/main-project/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/utils-library/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-testing/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-testing/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/插件的使用.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-tasks/自定义任务.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-architect/child_module/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-architect/child_module/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-architect/main_module/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-architect/main_module/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-resources/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-resources/自定义解析资源.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/conf/sample.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/scripts/script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/资源文件的解析和过滤.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-projects/core-library/src/test/java/org/example/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/utils/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/utils/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-resources/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-resources/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-projects/core-library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/core-library/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-projects/core-library/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/core-library/src/main/java/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-projects/utils-library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/utils-library/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +32,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +52,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -61,16 +59,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17"
+    "jdk.selected.JAVA_MODULE": "17",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-resources\src\main" />
+      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-resources\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.GradleBuildToolBasic [processResources]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="GradleBuildToolBasic.untitled.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +85,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GradleBuildToolBasic [processResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="processResources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GradleBuildToolBasic [processResources]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -93,6 +122,18 @@
       <option name="presentableId" value="Default" />
       <updated>1744881214362</updated>
     </task>
+    <task id="LOCAL-00001" summary="create modules structures">
+      <created>1744882658502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744882658502</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create modules structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="create modules structures" />
   </component>
 </project>

@@ -9,11 +9,15 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
+// TODO. 配置如何解析资源文件的策略: 加载和排除
+// Task :processResources 可执行的任务阶段
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
-test {
-    useJUnitPlatform()
+    from('src/main/resources') {
+        include '**/*.yml'
+        include '**/*.properties'
+        include '**/*.txt'
+    }
+    exclude 'application-dev.properties', 'conf/', 'scripts/'
 }
