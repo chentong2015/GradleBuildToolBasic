@@ -1,4 +1,18 @@
 // 配置主项目和项目的子模块
 rootProject.name = "GradleBuildToolBasic"
-// include 'child_module'
-// include 'main_module'
+
+include 'design-testing'
+include 'custom-resources'
+include 'custom-plugins'
+include 'custom-tasks'
+
+// 加载特定模块下的子模块
+include 'design-projects:core-library'
+findProject(':design-projects:core-library')?.name = 'core-library'
+
+include 'design-projects:utils-library'
+findProject(':design-projects:utils-library')?.name = 'utils-library'
+
+include 'design-projects:main-project'
+findProject(':design-projects:main-project')?.name = 'main-project'
+
