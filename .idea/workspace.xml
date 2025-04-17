@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/conf/sample.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/scripts/script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/resources/template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/资源文件的解析和过滤.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/core-library/src/test/java/org/example/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/utils/FileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/utils/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-resources/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-resources/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design-projects/core-library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/core-library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-projects/core-library/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/core-library/src/main/java/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-projects/core-library/src/test/java/org/example/MainTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/design-projects/utils-library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/utils-library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-projects/utils-library/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +39,7 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -129,11 +117,19 @@
       <option name="project" value="LOCAL" />
       <updated>1744882658502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update custom resources">
+      <created>1744884215501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744884215501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create modules structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="create modules structures" />
+    <MESSAGE value="update custom resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="update custom resources" />
   </component>
 </project>

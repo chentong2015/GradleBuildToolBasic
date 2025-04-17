@@ -13,7 +13,3 @@ dependencies {
     // TODO. 配置项目模块之间的依赖关系
     implementation project(':design-projects:utils-library')
 }
-
-test {
-    useJUnitPlatform()
-}
