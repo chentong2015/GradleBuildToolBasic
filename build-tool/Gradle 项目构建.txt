@@ -11,3 +11,5 @@ TODO. 运行特定项目模块的Task
 > ./gradlew.bat dependencies
 > ./gradlew.bat build
 > ./gradlew.bat clean
+> ./gradlew.bat custom-plugins:clean
+> ./gradlew.bat custom-tasks:dependencies

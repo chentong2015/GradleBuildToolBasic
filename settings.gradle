@@ -1,10 +1,14 @@
+// 配置所有插件的Repo仓库
+pluginManagement {
+    repositories {
+    }
+}
+
 // 配置主项目和项目的子模块
 rootProject.name = "GradleBuildToolBasic"
-
-include 'design-testing'
 include 'custom-resources'
-include 'custom-plugins'
 include 'custom-tasks'
+include 'design-testing'
 
 // 加载特定模块下的子模块
 include 'design-projects:core-library'
@@ -15,4 +19,10 @@ findProject(':design-projects:utils-library')?.name = 'utils-library'
 
 include 'design-projects:main-project'
 findProject(':design-projects:main-project')?.name = 'main-project'
+
+include 'custom-plugins:spring-boot-plugin'
+findProject(':custom-plugins:spring-boot-plugin')?.name = 'spring-boot-plugin'
+
+include 'custom-plugins:java-application-plugin'
+findProject(':custom-plugins:java-application-plugin')?.name = 'java-application-plugin'
 

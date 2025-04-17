@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+
+    // 插件会添加Application层任务: 通过Task直接启动应用, 查找默认启动类
+    // - bootRun
+    // - bootTestRun
+    // > ./gradlew bootRun
+    // > ./gradlew bootRun --args='--spring.profiles.active=dev'
+    id 'org.springframework.boot' version '3.4.4'
+}
+
+// Spring Boot project use the io.spring.dependency-management plugin
+// or Gradle’s native bom support for dependency management.
+apply plugin: 'io.spring.dependency-management'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.4.4'
+}
