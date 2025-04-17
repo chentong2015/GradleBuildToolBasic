@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/Gradle Wrapper.txt" afterDir="false" />
+    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/custom-dependencies-transitive/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-dependencies-transitive/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/java-application-plugin/JavaApp Plugin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/java-application-plugin/JavaApp Plugin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/java-application-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/java-application-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/java-application-plugin/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/java-application-plugin/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-dependencies/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dependencies/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-plugins/spring-boot-plugin/SpringBoot Plugin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/spring-boot-plugin/SpringBoot Plugin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-testing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-testing/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/custom-dependencies-transitive">
       <ProjectState />
     </projectState>
   </component>
@@ -65,12 +68,52 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
                 <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
+                <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
                 <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
+                <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
+                <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
+                <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
+                <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
@@ -78,6 +121,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GradleBuildToolBasic" type="f1a62948:ProjectNode" />
                 <item name="custom-plugins" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-plugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
@@ -134,7 +178,7 @@
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\build-tool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.GradleBuildToolBasic:custom-plugins:spring-boot-plugin [bootJar]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="GradleBuildToolBasic.custom-plugins.java-application-plugin.main" />
@@ -147,27 +191,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="GradleBuildToolBasic [processResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="processResources" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="GradleBuildToolBasic:custom-plugins:java-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -232,20 +255,41 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GradleBuildToolBasic:custom-plugins:spring-boot-plugin [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/custom-plugins/spring-boot-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:spring-boot-plugin [bootJar]" />
       <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:java-plugin [build]" />
-      <item itemvalue="Gradle.GradleBuildToolBasic [processResources]" />
       <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:java-plugin [jar]" />
       <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:java-plugin [javadoc]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:spring-boot-plugin [bootJar]" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:java-plugin [build]" />
         <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:java-plugin [javadoc]" />
         <item itemvalue="Gradle.GradleBuildToolBasic:custom-plugins:java-plugin [jar]" />
-        <item itemvalue="Gradle.GradleBuildToolBasic [processResources]" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744901242297</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish java application plugin">
+      <created>1744904173243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744904173243</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,6 +369,7 @@
     <MESSAGE value="refresh project" />
     <MESSAGE value="finish spring boot plugin" />
     <MESSAGE value="update dependency management" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dependency management" />
+    <MESSAGE value="finish java application plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish java application plugin" />
   </component>
 </project>

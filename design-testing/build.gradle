@@ -17,4 +17,8 @@ dependencies {
 // TODO. 关于测试阶段的控制
 test {
     useJUnitPlatform()
+
+    options {
+        systemProperties(System.getProperties())
+    }
 }

@@ -8,6 +8,8 @@ pluginManagement {
 rootProject.name = "GradleBuildToolBasic"
 
 include 'custom-dependencies'
+include 'custom-dependencies-transitive'
+
 include 'custom-resources'
 include 'custom-tasks'
 include 'design-testing'
@@ -30,4 +32,3 @@ findProject(':custom-plugins:java-application-plugin')?.name = 'java-application
 
 include 'custom-plugins:java-plugin'
 findProject(':custom-plugins:java-plugin')?.name = 'java-plugin'
-

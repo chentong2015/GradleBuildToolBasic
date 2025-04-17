@@ -1,10 +1,13 @@
-Gradle 8.4 版本新特性(兼容Java 21)
-https://docs.gradle.org/8.4/release-notes.html
 https://docs.gradle.org/8.4/userguide/userguide.html
 
+Gradle6.7不支持JDK17版本
+https://docs.gradle.org/current/userguide/compatibility.html
+
 TODO. 运行特定项目模块的Task
-> ./gradlew.bat dependencies
+> ./gradlew.bat dependencies 检查项目/模块的依赖
+> ./gradlew.bat buildEnvironment 将此项目的构建环境和classpath
 > ./gradlew.bat build
 > ./gradlew.bat clean
+
 > ./gradlew.bat custom-plugins:clean
 > ./gradlew.bat custom-tasks:dependencies

@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+// TODO. 做传递性依赖的管理和构建Java Library
+// dependencies {
+//    api 'org.apache.commons:commons-compress:1.26.1'
+// }
