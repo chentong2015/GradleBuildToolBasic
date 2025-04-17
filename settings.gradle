@@ -1,5 +1,4 @@
 // 配置主项目和项目的子模块
-// rootProject.name = "GradleBuildToolBasic"
+rootProject.name = "GradleBuildToolBasic"
 // include 'child_module'
-// include 'other_module'
-
+// include 'main_module'
