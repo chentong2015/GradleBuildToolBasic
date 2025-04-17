@@ -9,14 +9,33 @@ version = "1.0-SNAPSHOT"
 // 使用maven中心仓库作为项目的依赖来源
 // https://mvnrepository.com/repos/central
 repositories {
-    mavenCentral()
+   mavenCentral()
+}
+
+allprojects {
+    apply plugin: 'java'
+}
+
+subprojects {
+    // 配置所有项目的子项目的相关配置
+    apply plugin: 'java-library'
+
+    repositories {
+        maven { url "http://dev-nexus.xxx.net/content/groups/public/" }
+    }
+
+    dependencies {
+
+    }
+
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 // TODO. 设置项目源代码的编码格式
 compileJava.options.encoding='UTF-8'
 
 dependencies {
-
     // 添加测试相关的依赖，向下兼容Junit4的测试
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")

@@ -1,4 +1,11 @@
-TODO. Gradle项目构建完整阶段：源码编译打包，并测试验证项目(verifications)
+TODO. 运行main()方法会执行的阶段：编译源码并执行Main方法
+Executing ':Main.main()'...
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :Main.main()
+
+TODO. 运行@Build构建完整阶段：源码编译打包，并测试验证项目
 > Task :compileJava UP-TO-DATE
 > Task :processResources NO-SOURCE
 > Task :classes UP-TO-DATE
@@ -8,10 +15,10 @@ TODO. Gradle项目构建完整阶段：源码编译打包，并测试验证项�
 > Task :processTestResources NO-SOURCE
 > Task :testClasses UP-TO-DATE
 > Task :test NO-SOURCE
-> Task :check UP-TO-DATE
+> Task :check UP-TO-DATE 项目Verification阶段
 > Task :build
 
-TODO. 运行@Test测试代码会执行的阶段：编译源码和测试代码并执行
+TODO. 运行@Test执行的阶段：编译源码和测试代码并执行
 > Task :compileJava UP-TO-DATE
 > Task :processResources NO-SOURCE
 > Task :classes UP-TO-DATE
@@ -20,9 +27,9 @@ TODO. 运行@Test测试代码会执行的阶段：编译源码和测试代码并
 > Task :testClasses
 > Task :test
 
-TODO. 运行main()方法会执行的阶段：编译源码并执行
-Executing ':Main.main()'...
+TODO. 运行@Jar打包阶段: 编译源码并打包
+Executing 'jar'...
 > Task :compileJava
 > Task :processResources NO-SOURCE
 > Task :classes
-> Task :Main.main()
+> Task :jar
