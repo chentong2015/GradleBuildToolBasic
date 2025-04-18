@@ -1,0 +1,5 @@
+// TODO. 统一配置所有项目的设置
+allprojects {
+    repositories {
+    }
+}

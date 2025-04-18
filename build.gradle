@@ -8,34 +8,6 @@ version '1.0-SNAPSHOT'
 // 设置项目源代码的编码格式
 compileJava.options.encoding='UTF-8'
 
-
-// TODO. Configures the build script classpath for this project.
-// buildscript {
-//
-// }
-
-// TODO. 统一配置所有项目的设置
-allprojects {
-    // 在所有项目中统一应用插件
-    apply plugin: 'java'
-
-    repositories {
-    }
-}
-
-// TODO. 统一配置子项目的依赖和Repo
-subprojects {
-    // apply plugin: 'java-library'
-
-    repositories {
-    }
-
-    dependencies {
-    }
-}
-
-
-// TODO. 配置项目的依赖来源Repository
 repositories {
     // 1. Public repository
     mavenCentral()
@@ -53,7 +25,5 @@ repositories {
     // mavenLocal()
 
     // 4. Local File location
-    flatDir {
-        dirs "libs"
-    }
+    // flatDir { dirs "libs" }
 }

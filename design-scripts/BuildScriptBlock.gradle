@@ -1,0 +1,18 @@
+// TODO. 推荐直接使用plugins{} block来应用插件
+// Configures the build script classpath for this project.
+// 1. must appear before any plugins{} blocks in the script
+// 2. configures dependencies used in actual script, not used for building project
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.1'
+        classpath 'org.owasp:dependency-check-gradle:7.0.2'
+    }
+}
+
+// TODO. 使用buildscript{}中定义的依赖，显式Apply应用插件
+apply plugin: 'com.android.application'
+apply plugin: 'org.owasp.dependencycheck'

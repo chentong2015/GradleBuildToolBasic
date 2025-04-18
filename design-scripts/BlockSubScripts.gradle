@@ -1,0 +1,8 @@
+// TODO. 统一配置子项目的依赖和Repo
+subprojects {
+    repositories {
+    }
+
+    dependencies {
+    }
+}

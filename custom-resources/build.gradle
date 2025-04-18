@@ -11,7 +11,7 @@ sourceSets {
     main {
         java {
             srcDirs = ['src/java', 'src/main/java']
-            exclude 'com/unwanted/package/**'
+            exclude 'com/unwanted/**'
         }
         resources {
             // 定义多个资源文件路径, 可能存在重名资源文件

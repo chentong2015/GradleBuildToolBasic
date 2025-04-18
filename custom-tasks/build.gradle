@@ -11,3 +11,9 @@ repositories {
 
 dependencies {
 }
+
+
+// TODO. 在Build项目时自动调用方法
+print(project.project.name)
+print(project.project.group)
+print(project.projectDir.toString())

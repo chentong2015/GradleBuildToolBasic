@@ -1,9 +1,3 @@
-// 配置所有插件的Repo仓库
-pluginManagement {
-    repositories {
-    }
-}
-
 // 配置主项目和项目的子模块
 rootProject.name = "GradleBuildToolBasic"
 
