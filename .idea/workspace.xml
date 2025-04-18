@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/custom-dependencies/buildLocal.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-dependencies/libs/mysql-connector-j-8.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/Source Properties.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-resources/src/main/java/com/unwanted/UnWantedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-scripts/BlockAllScripts.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-scripts/BlockSubScripts.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-scripts/BuildScriptBlock.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-testing/项目测试配置.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-tool/DSL Language.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dependencies/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dependencies/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/Gradle Plugins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/Gradle Plugin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-resources/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-resources/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-resources/解析资源配置.png" beforeDir="false" afterPath="$PROJECT_DIR$/custom-resources/Process Properties.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-tasks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tasks/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-tasks/自定义Task任务.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tasks/自定义Task任务.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-testing/测试执行自动化.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/Gradle Plugin Management.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/ojdbc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/ucp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744969924655</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update design scripts">
+      <created>1744975174946</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744975174946</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,6 +368,7 @@
     <MESSAGE value="add custom dependencies transitive" />
     <MESSAGE value="refresh project" />
     <MESSAGE value="update process resource copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="update process resource copy" />
+    <MESSAGE value="update design scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="update design scripts" />
   </component>
 </project>

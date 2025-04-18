@@ -1,6 +1,4 @@
 https://docs.gradle.org/8.4/userguide/userguide.html
-
-Gradle6.7不支持JDK17版本
 https://docs.gradle.org/current/userguide/compatibility.html
 
 TODO. 运行特定项目模块的Task
