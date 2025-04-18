@@ -21,16 +21,3 @@ java {
 
     withJavadocJar()
 }
-
-// TODO. 自定义修改Java项目的结构布局
-sourceSets {
-    main {
-        // Custom Java source layout
-        java {
-            // srcDirs = ['src/java']
-        }
-        resources {
-            // srcDirs = ['src/resources']
-        }
-    }
-}

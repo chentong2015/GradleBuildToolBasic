@@ -5,19 +5,43 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
-repositories {
-    mavenCentral()
+// TODO. 自定义修改Java SourceSet资源来源
+// A SourceSet represents a logical group of Java source and resource files.
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/java', 'src/main/java']
+            exclude 'com/unwanted/package/**'
+        }
+        resources {
+            // 定义多个资源文件路径, 可能存在重名资源文件
+            srcDirs = ['src/resources', 'src/main/resources']
+        }
+    }
 }
 
-// TODO. 自定义(修改)解析资源文件的策略Task :processResources
+// TODO. 自定义(修改)解析资源策略, 在项目构建时调用
 processResources {
+    caseSensitive = true
+
+    // 当COPY重复文件或者被Included两次时必须设置策略(默认INHERIT)
+    // Gradle currently does’t check whether the duplicates are identical
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
-    from('src/main/resources') {
-        include '**/*.yml'
-        include '**/*.properties'
-        include '**/*.txt'
-    }
+    // 注意方法接受多个Pattern参数
+    // include '**/*.yml', '**/*.properties', '**/*.txt'
+    // exclude 'application-dev.properties', 'conf/', 'scripts/'
 
-    exclude 'application-dev.properties', 'conf/', 'scripts/'
+    // 注意方法接受可迭代的Pattern集合
+    includes = ['**/*.yml', '**/*.properties', '**/*.txt']
+    excludes = ['*dev.properties', 'conf/', 'scripts/']
 }
+
+// TODO. 单独指定从特定Source目标Copy文件
+// processResources {
+//    from('src/main/resources','') {
+//        include '**/*.yml'
+//        include '**/*.properties'
+//        include '**/*.txt'
+//    }
+// }
