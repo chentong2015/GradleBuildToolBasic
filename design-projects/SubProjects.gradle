@@ -1,0 +1,22 @@
+// TODO. 统一配置所有项目的设置
+allprojects {
+    repositories {
+    }
+}
+
+// TODO. 统一配置子项目的依赖和Repo
+subprojects {
+    repositories {
+    }
+
+    dependencies {
+    }
+}
+
+// TODO. 全局定义子模块之间的依赖关系
+// main-project需要引用utils的API, 需要保证utils编译通过
+project(":design-projects:main-project") {
+    dependencies {
+        implementation project(":design-projects:utils-library")
+    }
+}

@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build-tool/Gradle Version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-dependencies/libs/httpclient5-5.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tasks/src/main/resources/appInfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tasks/tasks.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tasks/自定义任务.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-projects/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/DSL Language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/DSL Language.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/Gradle 项目构建.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/项目构建工具.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/tasks/All Tasks.png" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tasks/tasks/All Tasks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/tasks/Run Task GUI.png" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tasks/tasks/Run Tasks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/tasks/Run Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tasks/tasks/任务的运行.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/项目构建工具.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/项目构建工具.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dependencies/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dependencies/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dependencies/buildLocal.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dependencies/libs/mysql-connector-j-8.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-dependencies/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/custom-dependencies/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-plugins/java-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-plugins/java-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-tasks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tasks/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-tasks/自定义Task任务.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-scripts/BlockAllScripts.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-scripts/BlockAllScripts.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-scripts/BlockSubScripts.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-scripts/BlockSubScripts.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-scripts/BuildScriptBlock.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/custom-scripts/BuildScriptBlock.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-testing/项目测试配置.txt" beforeDir="false" afterPath="$PROJECT_DIR$/design-testing/项目测试配置.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-scripts/BlockAllScripts.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-scripts/BlockSubScripts.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/SubProjects.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-scripts/BuildScriptBlock.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-projects/BuildScripts.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-testing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/design-testing/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,14 +170,14 @@
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\design-projects" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-dependencies\libs" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-tasks" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-resources" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-dependencies" />
-      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-plugins" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GradleBuildToolBasic [compileJava]">
+  <component name="RunManager" selected="Gradle.GradleBuildToolBasic [dependencies]">
     <configuration name="GradleBuildToolBasic [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -308,11 +292,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GradleBuildToolBasic [dependencies]" />
         <item itemvalue="Gradle.GradleBuildToolBasic [compileJava]" />
         <item itemvalue="Gradle.GradleBuildToolBasic:custom-tasks [myFirstTask]" />
         <item itemvalue="Gradle.GradleBuildToolBasic:custom-tasks [welcome]" />
         <item itemvalue="Gradle.GradleBuildToolBasic:custom-dependencies [dependencies]" />
-        <item itemvalue="Gradle.GradleBuildToolBasic [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744975701066</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update gradle tasks">
+      <created>1745170295477</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745170295477</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,6 +434,7 @@
     <MESSAGE value="update process resource copy" />
     <MESSAGE value="update design scripts" />
     <MESSAGE value="add domain-specific language" />
-    <option name="LAST_COMMIT_MESSAGE" value="add domain-specific language" />
+    <MESSAGE value="update gradle tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gradle tasks" />
   </component>
 </project>

@@ -25,10 +25,11 @@ repositories {
     // flatDir { dirs "libs" }
 }
 
-// TODO. 在Build项目时自动调用
+// 在Build项目时自动调用
 // 输出定义在gradle.properties属性配置文件中的信息
 print(appName)
 print(appVersion)
+
 print(project.project.name)
 print(project.project.group)
 print(project.projectDir.toString())

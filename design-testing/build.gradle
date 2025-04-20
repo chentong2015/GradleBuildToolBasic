@@ -16,6 +16,9 @@ dependencies {
 
 // TODO. 关于测试阶段的控制
 test {
+    // set JVM arguments for the test JVM(s)
+    jvmArgs '-Xshare:off'
+
     useJUnitPlatform()
 
     options {
