@@ -6,6 +6,12 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+// TODO. 设置项目源代码的编码格式
+// compileJava.options.encoding='UTF-8'
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
 // TODO. Java plugin adds java extension to the project
 // Allows to configure a number of Java related properties inside DSL block.
 java {

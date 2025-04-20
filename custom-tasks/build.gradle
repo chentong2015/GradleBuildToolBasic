@@ -12,8 +12,33 @@ repositories {
 dependencies {
 }
 
+// TODO. 自定义other类型的任务: 注意Groovy脚本风格
+tasks.register("setUpTask") {
+    doLast {
+        print 'Setup project'
+    }
+}
 
-// TODO. 在Build项目时自动调用方法
-print(project.project.name)
-print(project.project.group)
-print(project.projectDir.toString())
+// 定义任务之间的依赖关系
+tasks.register('myFirstTask') {
+    dependsOn setUpTask
+
+    doFirst {
+        print 'DO First'
+    }
+    doLast {
+        println 'DO Last'
+    }
+}
+
+tasks.register('buildPackZip', Zip) {
+    dependsOn build
+
+    from('Custom-tasks/build/libs') {
+        include '*.jar'
+    }
+    from('.') {
+        include 'COPYING'
+    }
+    archiveFileName = "$appName-$appVersion-java.zip"
+}

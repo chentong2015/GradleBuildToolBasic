@@ -1,6 +1,6 @@
+TODO. Gradle支持Groovy DSL和Kotlin DSL两种语法风格
 DSL: domain-specific language
 
-TODO. Gradle支持Groovy DSL和Kotlin DSL两种语法风格
 Groovy DSL: 单引号+空格
 plugins {
     id 'org.springframework.boot' version '3.3.1'

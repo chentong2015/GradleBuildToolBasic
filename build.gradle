@@ -5,9 +5,6 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
-// 设置项目源代码的编码格式
-compileJava.options.encoding='UTF-8'
-
 repositories {
     // 1. Public repository
     mavenCentral()
@@ -27,3 +24,11 @@ repositories {
     // 4. Local File location
     // flatDir { dirs "libs" }
 }
+
+// TODO. 在Build项目时自动调用
+// 输出定义在gradle.properties属性配置文件中的信息
+print(appName)
+print(appVersion)
+print(project.project.name)
+print(project.project.group)
+print(project.projectDir.toString())

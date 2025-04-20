@@ -1,2 +1,7 @@
-1. 项目测试的自动化
-2. 项目测试代码和测试资源文件是否能Copy?
+TODO. 项目测试的自动化
+> ./gradlew cleanTest
+> ./gradlew test
+> ./gradlew jacocoTestReport
+
+移动运行带覆盖率的测试(使用插件来实现)?
+项目测试代码和测试资源文件是否能Copy?

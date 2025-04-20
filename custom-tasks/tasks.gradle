@@ -1,0 +1,9 @@
+// 自定义Task任务的实现方法
+class CreateFileTask extends DefaultTask {
+    @TaskAction
+    static void action() {
+        def file = new File("myfile.txt")
+        file.createNewFile()
+        file.text = "HELLO FROM MY TASK"
+    }
+}

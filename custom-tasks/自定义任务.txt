@@ -1,0 +1,12 @@
+> ./gradlew.bat myCustomTask 运行自定义的任务
+
+定义Task任务之间的依赖关系
+Depends on: AnotherTask
+
+
+Task自定义的声明方式
+https://docs.gradle.org/current/dsl/org.gradle.api.Task.html
+
+https://docs.gradle.org/current/userguide/writing_tasks.html
+
+https://www.baeldung.com/gradle-custom-task

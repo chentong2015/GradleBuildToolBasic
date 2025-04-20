@@ -4,8 +4,17 @@ plugins {
     id 'io.spring.dependency-management' version "1.1.7"
 }
 
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
 repositories {
     mavenCentral()
+
+    // 指定本地的仓库
+    flatDir {
+        dirs "libs"
+    }
 }
 
 // TODO. 统一管理依赖的多个版本: Bill of Materials (BOM)
@@ -33,8 +42,13 @@ dependencies {
     // 该依赖版本由dependencyManagement所管理
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
-    // 从依赖中移除特定的依赖: 自定义添加新版本
+    // 从依赖中移除特定的依赖
     implementation('org.springframework.boot:spring-boot-starter-batch:3.4.4') {
         exclude group:'ch.qos.logback', module:'logback-classic'
     }
+
+    // TODO. 从当前模块本地相对路径添加依赖
+    implementation files('libs/httpclient5-5.4.2.jar')
+    // implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // implementation fileTree(dir: "${rootProject.projectDir}/libs", include: "*.jar")
 }

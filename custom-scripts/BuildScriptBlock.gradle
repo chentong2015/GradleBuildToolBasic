@@ -13,6 +13,6 @@ buildscript {
     }
 }
 
-// TODO. 使用buildscript{}中定义的依赖，显式Apply应用插件
+// TODO. 使用buildscript{}中引用依赖，显式Apply插件
 apply plugin: 'com.android.application'
 apply plugin: 'org.owasp.dependencycheck'
