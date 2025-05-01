@@ -19,6 +19,7 @@ repositories {
     }
 
     // 3. Local repository
+    // 使用本地Repo仓库 C:\Users\chent\.m2\repository\ 加载jar包依赖
     // mavenLocal()
 
     // 4. Local File location
