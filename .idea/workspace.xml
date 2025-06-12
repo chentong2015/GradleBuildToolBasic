@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="">
+    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="update gradle build config">
+      <change afterPath="$PROJECT_DIR$/build-tool/系统环境变量.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,11 +244,11 @@
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\build-tool" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\design-projects" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-dependencies\libs" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-tasks" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-resources" />
-      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-dependencies" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.GradleBuildToolBasic [dependencies]">
@@ -389,8 +390,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -403,7 +404,12 @@
       <option name="presentableId" value="Default" />
       <updated>1744881214362</updated>
       <workItem from="1746016885221" duration="1505000" />
-      <workItem from="1746089282309" duration="1543000" />
+      <workItem from="1746089282309" duration="3186000" />
+      <workItem from="1746178254287" duration="2497000" />
+      <workItem from="1746430968810" duration="1223000" />
+      <workItem from="1746518410286" duration="2000" />
+      <workItem from="1746628129828" duration="1000" />
+      <workItem from="1749737888277" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="create modules structures">
       <created>1744882658502</created>
@@ -510,7 +516,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745171591218</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update gradle build config">
+      <option name="closed" value="true" />
+      <created>1746106191866</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746106191866</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,6 +542,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="create modules structures" />
     <MESSAGE value="update custom resources" />
     <MESSAGE value="clean library" />
@@ -542,6 +557,7 @@
     <MESSAGE value="add domain-specific language" />
     <MESSAGE value="update gradle tasks" />
     <MESSAGE value="update multi project design" />
-    <option name="LAST_COMMIT_MESSAGE" value="update multi project design" />
+    <MESSAGE value="update gradle build config" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gradle build config" />
   </component>
 </project>

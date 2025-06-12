@@ -36,6 +36,15 @@ for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
 
+
+echo "Read JAVA_HOME from environment variables !"
+echo "1. Get from User environment Variables "
+echo "2. Get from System environment Variables "
+echo "------------------------------------------"
+echo %JAVA_HOME%
+echo "------------------------------------------"
+
+
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
 
@@ -48,7 +57,6 @@ echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PA
 echo.
 echo Please set the JAVA_HOME variable in your environment to match the
 echo location of your Java installation.
-
 goto fail
 
 :findJavaFromJavaHome
