@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="update gradle build java home">
+    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="refresh project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/系统环境变量.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/系统环境JDK版本.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,8 +388,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -410,7 +409,8 @@
       <workItem from="1746628129828" duration="1000" />
       <workItem from="1749737888277" duration="1169000" />
       <workItem from="1750610903748" duration="72000" />
-      <workItem from="1750611018357" duration="51000" />
+      <workItem from="1750611018357" duration="76000" />
+      <workItem from="1758014440448" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="create modules structures">
       <created>1744882658502</created>
@@ -533,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749739054849</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="refresh project">
+      <option name="closed" value="true" />
+      <created>1750611082568</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750611082568</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +568,6 @@
     <MESSAGE value="update dependency management" />
     <MESSAGE value="finish java application plugin" />
     <MESSAGE value="add custom dependencies transitive" />
-    <MESSAGE value="refresh project" />
     <MESSAGE value="update process resource copy" />
     <MESSAGE value="update design scripts" />
     <MESSAGE value="add domain-specific language" />
@@ -568,6 +575,7 @@
     <MESSAGE value="update multi project design" />
     <MESSAGE value="update gradle build config" />
     <MESSAGE value="update gradle build java home" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gradle build java home" />
+    <MESSAGE value="refresh project" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh project" />
   </component>
 </project>
