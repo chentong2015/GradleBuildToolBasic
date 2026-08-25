@@ -1,7 +1,4 @@
-https://docs.gradle.org/8.4/userguide/userguide.html
-https://docs.gradle.org/current/userguide/compatibility.html
-
-TODO. 运行特定项目模块的Task
+运行特定项目模块的Task
 > ./gradlew build                Linux环境执行构建
 > ./gradlew.bat dependencies     检查项目/模块的依赖
 > ./gradlew.bat buildEnvironment 检查项目构建环境和classpath
@@ -9,3 +6,6 @@ TODO. 运行特定项目模块的Task
 > ./gradlew.bat clean
 > ./gradlew.bat custom-plugins:clean
 > ./gradlew.bat custom-tasks:dependencies
+
+https://docs.gradle.org/8.4/userguide/userguide.html
+https://docs.gradle.org/current/userguide/compatibility.html
