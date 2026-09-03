@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="refresh project">
-      <change afterPath="$PROJECT_DIR$/core-features/Command Line Interface.txt" afterDir="false" />
+    <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="refresh gradle core features">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/Extra Properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/extra-properties/Extra Properties.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/Gradle Version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/Gradle Version.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/Gradle Warning.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/config/DSL Language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/DSL Language.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/config/系统环境JDK版本.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/系统环境JDK版本.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/项目构建工具.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/项目构建工具.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/项目构建工具.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/项目构建工具.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,9 +237,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48390806&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -258,11 +252,11 @@
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Software Build Tool\GradleBuildToolBasic\core-features" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\GradleBuildToolBasic\configuration" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\GradleBuildToolBasic\extra-properties" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\build-tool" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\design-projects" />
-      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-dependencies\libs" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.GradleBuildToolBasic [dependencies]">
@@ -427,7 +421,8 @@
       <workItem from="1750610903748" duration="72000" />
       <workItem from="1750611018357" duration="76000" />
       <workItem from="1758014440448" duration="2874000" />
-      <workItem from="1788446407644" duration="911000" />
+      <workItem from="1788446407644" duration="1065000" />
+      <workItem from="1788448709515" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="create modules structures">
       <created>1744882658502</created>
@@ -558,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750611082568</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="refresh gradle core features">
+      <option name="closed" value="true" />
+      <created>1788447463744</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1788447463744</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,6 +611,7 @@
     <MESSAGE value="update gradle build config" />
     <MESSAGE value="update gradle build java home" />
     <MESSAGE value="refresh project" />
-    <option name="LAST_COMMIT_MESSAGE" value="refresh project" />
+    <MESSAGE value="refresh gradle core features" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh gradle core features" />
   </component>
 </project>
