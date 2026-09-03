@@ -1,9 +1,9 @@
-// 配置主项目和项目的子模块
+// 配置主项目名称
 rootProject.name = "GradleBuildToolBasic"
 
+// 管理次级项目模块
 include 'custom-dependencies'
 include 'custom-dependencies-transitive'
-
 include 'custom-resources'
 include 'custom-tasks'
 include 'design-testing'
@@ -17,6 +17,7 @@ findProject(':design-projects:utils-library')?.name = 'utils-library'
 
 include 'design-projects:main-project'
 findProject(':design-projects:main-project')?.name = 'main-project'
+
 
 include 'custom-plugins:spring-boot-plugin'
 findProject(':custom-plugins:spring-boot-plugin')?.name = 'spring-boot-plugin'

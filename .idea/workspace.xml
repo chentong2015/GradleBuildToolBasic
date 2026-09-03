@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86d215c-76ce-48e2-9e5b-f63a56ef1dbc" name="Changes" comment="refresh project">
+      <change afterPath="$PROJECT_DIR$/core-features/Command Line Interface.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-tool/项目构建工具.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build-tool/项目构建工具.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/Extra Properties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/extra-properties/Extra Properties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/Gradle Version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/Gradle Version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/Gradle Warning.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/config/DSL Language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/DSL Language.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/config/系统环境JDK版本.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/系统环境JDK版本.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-tool/项目构建工具.txt" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/项目构建工具.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,11 +258,11 @@
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Software Build Tool\GradleBuildToolBasic\configuration" />
+      <recent name="C:\Work\Work My Projects\Software Build Tool\GradleBuildToolBasic\extra-properties" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\build-tool" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\design-projects" />
       <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-dependencies\libs" />
-      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-tasks" />
-      <recent name="C:\Work\Work My Projects\Software Build Tool\Gradle Tool\GradleBuildToolBasic\custom-resources" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.GradleBuildToolBasic [dependencies]">
@@ -382,6 +389,7 @@
       <item itemvalue="Gradle.GradleBuildToolBasic:custom-dependencies [dependencies]" />
       <item itemvalue="Gradle.GradleBuildToolBasic:custom-tasks [myFirstTask]" />
       <item itemvalue="Gradle.GradleBuildToolBasic:custom-tasks [welcome]" />
+      <item itemvalue="Spring Boot.ExampleApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -419,6 +427,7 @@
       <workItem from="1750610903748" duration="72000" />
       <workItem from="1750611018357" duration="76000" />
       <workItem from="1758014440448" duration="2874000" />
+      <workItem from="1788446407644" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="create modules structures">
       <created>1744882658502</created>
